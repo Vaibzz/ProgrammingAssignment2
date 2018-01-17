@@ -11,7 +11,7 @@
 makeCacheMatrix <- function(x = matrix()) {
           inverse <- NULL         #variable to insert cached inverse
           
-          set <- function()       #function to initialize variables
+          set <- function(y)       #function to initialize variables
           {
             inverse <<- NULL      
             x <<- y
